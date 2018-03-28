@@ -1,7 +1,20 @@
 # etholos1
-This is an initial commit for the X.509v3/X.500 c=US Healthcare identity and informatics Directory. While the "Directory" and related PKI is well established, is a critical (if not well understood) part of network infrastructure, and thus has been extensively tested, and documented in security realms; this particular repository use case will focus on generating soverign patient identity using experimental protocols funded by recent research at Department of Homeland Security to develop "sovereign identity" with DKMS. 
+This is an initial commit for the X.509v3/X.500 c=US Healthcare identity and informatics Directory. While the "Directory" and related PKI is well established, is a critical (if not entirely well understood) part of network infrastructure, and thus has been extensively tested, and documented in security realms; this particular repository use case will focus on generating soverign patient identity using experimental protocols funded by recent research at Department of Homeland Security to develop "sovereign identity" with DKMS. This in turn will be linked to a Country rooted X.500 Directory service which has been tested previously with a Healthcare Standards and Interoperability schema, of which the model is currently being developed under a HL7 ballot with futher data elements, than the original IHE version which was adopted to X.500 by ISODE.
 
-The point is to augment the quality and depth of the current PKI under c=US, or country equals US, for which I have been a manager and developer since the 1990s. There are a number of related efforts which I will list here to improve the PKI for the end user. 
+The standard on which to start off is this. https://www.iso.org/standard/51432.html What is important about this standard, and what is subsequently unique to the US, is the fact that both patients and providers are connected in the ISO version, where in the US the Federal Government has been prohibited by Congress from funding patient identifiers. That is a separate and well documented thread in terms of risks, how much money would be saved with a complete system, and the amount patient errors reduced.
+
+At one point CHIME offered a 1 Million dollar HeroX prize for a development solution, and some two years later, (after a great deal of development and publicity noise), essentially decided it was too difficult to do on their own.
+
+
+
+Of course they set up poor requirements, which almost guaranteed this result, (at least that's what I told them).
+
+So CHIME played a part in both advancing and delaying Patient ID. 
+
+https://www.hospitalemrandehr.com/2017/11/17/chime-suspends-the-1-million-dollar-national-patient-id-challenge/
+
+
+The point is to augment the quality and depth of the current PKI under c=US, or country equals US, for which I have been a private manager and developer since the 1990s. There are a number of related efforts which I will list here to improve the PKI for the end user. 
 
 Saving costs by adopting a National Patient Identifier
 
