@@ -1,9 +1,12 @@
 Any transactions generated via the Patient Identifier will be enforced via policy through the entire Identity Ecosystem.
-The minimal requirements are detailed below.
 
-This is possible by building soverign identity linked to PKI in a manner where patient identity information is governed by Fair Information Principles as definable computer enforced  Policy which scales up to International Agreements, to National Governments, to States, Organizations, and Individuals. 
+This is limited to where policy can be applied, (such as c=US), by means of various technlogies such as attribute authorities, attribute certificates and generally is the traditional identity landscape of relying parties. 
 
-This is built into the exchange of data relating to Patient Identity.
+The minimal Fair Information Practices requirements are detailed below.
+
+This is possible by building soverign identity linked to PKI in a manner where patient identity information is governed by Fair Information Principles as definable computer enforced Policy which scales up to International Agreements, to National Governments, to States, Organizations, and Individuals. 
+
+This is built into the exchange of data relating to Patient Identity. This must be built on the FIPPS below. Meaningful consent should allow for patients to audit how their information is being used. There are negative counter patterns in which this was not done.
 
 These fair practices are essential to the continued economic success of the US. 
 
@@ -13,7 +16,7 @@ We should be getting a discount, we are paying a premium. Patient driven solutio
 
 Fraud, waste, abuse and duplicative overhead makeup 30% of the  healthcare portion of the entire GDP (18%).
 
-This is with measurably worse patient outcomes, (as measured by the OECD relative to other countries) there is a great deal of room for economic disintermediation, while still allowing for reasonable profit for patient valued services. This is all based on voluntary consent. Above all, it is a rational development, that exists in many other countries.
+This is with measurably worse patient outcomes, (as measured by the OECD relative to other countries) there is a great deal of room for economic disintermediation, while still allowing for reasonable profit for patient valued services. This is all based on voluntary consent. Above all, it is a rational development, that exists in many other countries. Services can be defined in the IT sense with current data technology.
 
 Specifically through the following measures:
 
