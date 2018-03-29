@@ -33,7 +33,15 @@ Directly the result of complex systemic problems that in turn impact individual 
 
 Essentially we pay more for services that deliver worse outcomes compared to countries that pay less, (even down to 9%). The difference is the lack of an integrated healthcare system based on the profit incentive.
 
-HHS was tasked with dealing with this in 2004. By leveraging the secure exchange of medical records over the Internet. HHS ONC took this as a mandate to explore how existing business interests could be protected from disintermediation. Primarily this is due to scale. Open Systems have the ability to scale to entire countries. Data is held by various stakeholders, but made available to anyone in the distributed system that can prove a valid reason (defined by policy) to access that data. Right now the patient has very little say in how their healthcare data is used.
+2. Provide US specific services defined by Hl7 tailored to the US Realm, i.e. delivered via the Internet, but with US policy.
+
+HHS was tasked with dealing with this in 2004. By leveraging the secure exchange of medical records over the Internet. HHS ONC took this as a mandate to explore how existing business interests could be protected from disintermediation. Primarily this is due to scale. 
+
+3. Use Open Systems standards which are the legal back up standards to the Internet RFC
+
+Open Systems have the ability to scale to entire countries. Data is held by various stakeholders, but made available to anyone in the distributed system that can prove a valid reason (defined by policy) to access that data. Right now the patient has very little say in how their healthcare data is used. By putting the patient in the driver's seat, literally making them a functional part of the system, they gain the benefits of an open system. 
+
+4. Lowering costs via better health outcomes
 
 By effectively sharing data on risks to patients, in which patients self-identify, risks that are well known can be pre populated to structured data that can be shared with providers in order to acheive effective decision making. While these FIPPs are primarily targeted to organizations, the nature of the patient identifier is that they will also apply to individuals to counter the threat of sibyl (false synthetic identity) attacks that drain healthcare resources. Correspondingly, digital signing and encryption of documents is supported, and will be explored in depth in the requirements matrix.
 
