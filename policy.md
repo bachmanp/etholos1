@@ -1,16 +1,16 @@
 Any transactions generated via the Patient Identifier will be enforced via policy through the entire Identity Ecosystem.
 
-This is limited to where policy can be applied, (such as c=US), by means of various technlogies such as attribute authorities, attribute certificates and generally is the traditional identity landscape of relying parties. 
+This is limited to where policy can be applied, (such as c=US), by means of various technlogies such as attribute authorities, attribute certificates and that which is generally the identity landscape of relying parties. 
 
 The minimal Fair Information Practices requirements are detailed below.
 
 This is possible by building soverign identity linked to PKI in a manner where patient identity information is governed by Fair Information Principles as definable computer enforced Policy which scales up to International Agreements, to National Governments, to States, Organizations, and Individuals. 
 
-This is built into the exchange of data relating to Patient Identity. This must be built on the FIPPS below. Meaningful consent should allow for patients to audit how their information is being used. There are negative counter patterns in which this was not done.
+This is built into the exchange of data relating to Patient Identity. This must be built on the FIPPS below. Meaningful consent should allow for patients to audit how their information is being used. There are well known negative counter patterns in where this was not done.
 
 These fair practices are essential to the continued economic success of the US. 
 
-Current costs for healthcare (18% of GDP) exceed the ability of people to pay. 
+Current costs for healthcare in the US (18% of GDP) exceed the ability of people to pay. 
 
 We should be getting a discount, we are paying a premium. Patient driven solutions are logical since the issue of trust of patient data, with the patient is easily scalable, but patient data within organizations is difficult.
 
