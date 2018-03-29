@@ -43,7 +43,15 @@ Open Systems have the ability to scale to entire countries. Data is held by vari
 
 4. Lowering costs via better health outcomes
 
-By effectively sharing data on risks to patients, in which patients self-identify, risks that are well known can be pre populated to structured data that can be shared with providers in order to acheive effective decision making. While these FIPPs are primarily targeted to organizations, the nature of the patient identifier is that they will also apply to individuals to counter the threat of sibyl (false synthetic identity) attacks that drain healthcare resources. Correspondingly, digital signing and encryption of documents is supported, and will be explored in depth in the requirements matrix.
+By effectively sharing data on risks to patients, (in which patients self-identify), risks can be pre populated to structured data that can be shared with providers in order to acheive effective decision making. While these FIPPs are primarily targeted to organizations, the nature of the patient identifier is that they will also apply to individuals to counter the threat of sibyl (false synthetic identity) attacks that drain healthcare resources. Correspondingly, digital signing and encryption of documents is supported, and will be explored in depth in the requirements matrix.
+
+5. Creating lower risks through resilience.
+ A. Recovering from natural events, like hurricanes, by keeping data state on patients (from patients), or via IHE ATNA log capabilities.
+ No one should get "lost" in the system because their data is siloed. Full situational awareness of state should permeate the system in the case of known bias in diagnosis.
+ Systems need to be able to downgrade in terms of network capabilities,  but still maintain audit state
+ B. Portability of data to first responders by linking patient medical data across the healthcare system
+ 
+ A national patient id should be acceptable to link records in a disaster (original NSTIC use case) in order to triage patients in a disaster area. 
 
 
 The Fair Information Practice Principles (from NSTIC)
