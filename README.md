@@ -30,11 +30,17 @@ Using SSN for a NPI substitute, or patient matching algorithms has been similarl
 
 A standard proven use case would be that of end to end encrypted S/MIME email with attached medical data between patient and provider.
 
-This comes under the "Applicability Statement" of the Direct Project as the most secure email approach. Mail sent via TLS to a HISP via IMAPS or POP3S and subsequently converted to S/MIME at the HISP is not as secure, since the unencrypted data is exposed in the mail spool of the mail server and exposed to the root user, or a hacker.
+This comes under the "Applicability Statement" of the Direct Project as the most secure email approach. Mail sent via TLS to a HISP via IMAPS or POP3S and subsequently converted to S/MIME at the HISP is not as secure, since the unencrypted data is exposed in the mail spool of the mail server and exposed to the root user, or a hacker. Hacking softwate can be very sophisicated and only exist in the memory (not software) of a device. 
 
 TLS only encrypts to the end point. It prevents (assuming TLS 1.3) most MITM attacks and is approved by the IETF. Web server and client certificates are different forms of Key Usage. 
 
-The same way that code signing is a different form of key usage. It goes to say (without much proof needed), that the relative difficulty to decrypt S/MIME email is higher to various threat actors is higher since each individual createst heir own keys. That data is then digitally signed and sent to a CA to create a certificate that has a trust value, from no trust of identity to a very high trust of identity, and thus a cost to match. A full blown "level 3 trust' in a PKI identity  is established by two forms of government ID, plus a notarized statement, mailed through the US mail. Level 4 trust is established by an in person visit to the CA, with the same information, plus biometrics. The specifics of this (and alternatives) are specified by NIST 800-63 for c=US. Additional data on the trust framework is available at the Federal PKI website, which primarily governs the policy for the CAs. For web based certificates, the best resource is the Mozilla Security Google Group, and the CA/Browser forum which covers the default CA certificates that are trusted by browsers, based on the CAB baseline requirements. 
+The same way that code signing is a different form of key usage. It goes to say (without much proof needed), that the relative difficulty to decrypt S/MIME email is higher to various threat actors is higher since each individual createst heir own keys. That data is then digitally signed and sent to a CA to create a certificate that has a trust value, from no trust of identity to a very high trust of identity, and thus a cost to match.
+
+A full blown "level 3 trust' in a PKI identity  is established by two forms of government ID, plus a notarized statement, mailed through the US mail. Level 4 trust is established by an in person visit to the CA, with the same information, plus biometrics. 
+
+The specifics of this (and alternatives) are specified by NIST 800-63 for c=US. This level of assurance is appropriate to repesent your identity to "relying parties". As was said at a HIPAA seminar at NIST, it's good enough for nukes, it should be good enough for healthcare.
+
+Additional data on the trust framework is available at the Federal PKI website, which primarily governs the policy for the CAs. For web based certificates, the best resource is the Mozilla Security Google Group, and the CA/Browser forum which covers the default CA certificates that are trusted by browsers, based on the CAB baseline requirements. 
 
 Thus the number of keys is higher with millions of individual private keys. However this is a worthy discussion, since an average individual may not have adequate security, (without some guidance) to maintain the security of their private key, where a commercial entity is likely to use air gapped, offsite storage, in a HSM.
 
