@@ -1,3 +1,55 @@
+Once a patient has created a patient id (independent of an assigned ID within a healthcare setting, how do they register this self assigned ID with their healthcare provider without an initial  in person visit.
+
+How can data be transmitted electronically to first responders?
+
+For example a Twitter message can be monitored by the Red Cross in disaster situations by Social Media Disaster Managers.
+Twitter is not built to handle encryption and medical data. However a push message from someone in a situation where they do not have access to 911, could create a bidirectional flow of vital statistics. In this case the Twitter message would have an identity based encryption key in the form of an email address. [Boneh] This would be a public key and identifier.
+
+https://crypto.stackexchange.com/questions/701/what-is-identity-based-encryption-ibe-and-why-is-it-better
+
+Assumptions for the Use Case
+
+1. Patient creates a valid identity that satisfies requirements, for example a LOA 2 X.509v3 certificate, or an equivalent independently identity that has been developed meeting NIST guidelines for LOA2.
+
+Administrators of system components are verified to LOA3.
+
+(This use case is scoped and only applies to a "US Person" who can be located anywhere in the world. 
+
+The scope of the patient ID service is limited to c=US policy controls on X.509v3 as applied to the X.500 Directory.
+
+
+2. Access via browser and TLS encryption links back to Mozilla Foundation Security Working Group and CAB baseline requirements
+
+Workflow
+
+Create a self-soverign identity using DKMS
+Create a patient identifier via a commercial service, open source software  or ANSI/ASTM specifications, 
+no longer a standard as of2017 due to lack of industry usage) E1714 - 07(2013) Standard Guide for Properties of a Universal Healthcare Identifier (UHID)
+Resuse a current owned patient identifier (Probably through a request to Healthcare Provider)
+Reqeust that healthcare provider disambiguate you from similarly  named patients in existing master patient index of provider to avoid potential bad outcomes in terms of allergies, etc. (Normally done with birthdate)
+
+Goals
+
+Disambiguate one's patient identity in any systems where a patient identifier is required.
+
+
+Create a LOA2 certificate signing request and send it to any certificate authority that has the capability to use the Federal Bridge
+Register patient identifier into Healthcare Provider or Payer using FHIR
+Use Hl7 security best practices to 
+
+Dependencies
+
+Must have separate signing and encryption certificate. CA must be able to cross certify at Federal Bridge
+
+Advantages
+
+Dataflows can exist between patient and providers. 
+Between patient and government healthcare providers, such as VA or CMS
+Between groupings of providers created around a specific healthcare episode.
+All dataflows will conform to Fair Information Practices policies
+Transactions occur either as a query or push for information.
+
+
 
 
 https://gforge.hl7.org/gf/project/security/docman/CCDE%20Consumer%20Centered%20Data%20Exchange%20Connectathon/CCDE%20Interim/UMA_Consent_Management_Service-2017-11-27.pdf
