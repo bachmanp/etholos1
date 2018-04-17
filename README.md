@@ -1,11 +1,20 @@
 # etholos1
-This is an initial commit for the X.509v3/X.500 c=US Healthcare identity and informatics Directory. While the "Directory" and related PKI is well established, it is a critical (if not entirely well understood) part of network infrastructure due to the technical complexity.
+This is an initial commit for the X.509v3/X.500 c=US Healthcare identity and informatics Directory. 
 
-As a result several associations have developed best practices surround the use of the PKI, which may or may not involve IETF standards. 
+While the "Directory" and related PKI is well established, it is a critical (if not entirely well understood) part of network infrastructure due to the technical complexity. All members of the X.500 Directory are unique, where in separate databases and disconnected directories, uniqueness is not guaranteed. This is where probabilistic algorithm matching enters the picture.
 
-Since the IETF opposes "pervasive monitoring" of data, certain threat mitigations exist for various actors that may attempt to abuse your healthcare data. These actors could range from an insider employee, up to and including state actors. 
+Thus one needs to ask, at what level is my specific entry unique? This might be the entire Internet for self generated identity on a block chain, unique within a hosptital healthcare system, unique within an electronic healthcare system, or unique within an organization like CMS or the VA or within a specific State. 
 
-A separated ***policy matrix specification*** will make clear the requirements of Health Care providers to accept and securely store, and share your health care data with other covered entities when using the c=US relying party agreement.
+
+As a result several PKI based associations have developed best practices that surround the use of the PKI, which may or may not involve IETF standards. 
+
+Since the IETF opposes "pervasive monitoring" of data, certain threat mitigations exist for various actors that may attempt to abuse your healthcare data. If you had behavioral data as part of a standard form 86 security clearance, that mentioned treatment for alcoholism, this confidential data has already been part of a breach of data by OMB.
+
+https://www.wired.com/2015/06/opm-breach-security-privacy-debacle/
+
+These threat actors range from an insider employee, up to and including state actors. 
+
+A separate ***policy matrix specification*** will make clear the requirements of Health Care providers to accept and securely store, and share your health care data with other covered entities when using the c=US relying party agreement and trust framework.
 
 While the PKI has been extensively tested, and documented in security realms; this particular repository use case will focus on generating soverign patient identity using experimental protocols funded by recent research at Department of Homeland Security to develop "sovereign identity" with DKMS. This in turn will be linked to a Country rooted X.500 Directory service which has been tested previously with a Healthcare Standards and Interoperability schema, of which the model is currently being developed under a HL7 ballot with futher data elements, than the original IHE version which was adopted to X.500 by ISODE.
 
