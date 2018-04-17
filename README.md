@@ -60,4 +60,12 @@ The idea of this patient identity use case would be for patients to generate the
 At the same time there are Block Chain applications as indidcated in the DKMS block diagrams.
 
 
+Notes:
+
+Contrast between Patient Matching and Patient Identity circa 2014 by Peel This essentially makes the case for self generated identity that can be networked across the healthcare system. 
+
+Peel D.C. “Patient Identification and Matching Initial Findings.” Patient Privacy Rights. December 16, 2013. Available at http://patientprivacyrights.org/wp-content/uploads/2013/12/PPR-Patient-Matching-Testimony-for-12.16.13.pdf.
+
+
+
 
